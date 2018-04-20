@@ -1,5 +1,7 @@
 # SYSTEM ALIAS
 
+` @ ~/.shell_alias `
+
 ## 进入相关目录 && 进入目录打开编辑器
 
 ```SH
