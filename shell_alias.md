@@ -1,14 +1,17 @@
-# 统一管理alias
+# SYSTEM ALIAS
 
-## 全局的code alias => vscode
+## 进入相关目录 && 进入目录打开编辑器
 
-alias code='/Applications/Visual\ Studio\ Code\ .app/Contents/Resources/app/bin/code'
+```SH
+TBD...
 
-## 进入相关目录
+```
 
-## 进入目录打开编辑器
+## 常用目录
 
 ```sh
+## vscode
+alias code='/Applications/Visual\ Studio\ Code\ .app/Contents/Resources/app/bin/code'
 alias gm='git add . && git commit -m'
 alias gp='git push'
 alias gr='git rebase -i HEAD\~3'
@@ -19,8 +22,6 @@ alias gs='git status'
 alias gd='git diff'
 alias g='git'
 alias zshrc="vi \~/.zshrc"
-alias shellalias="vi \~/.shell\_alias"
-alias builder="ssh builder@vpc"
 alias y='yarn'
 alias aliyun='ssh root@aliyun'
 alias ck='git checkout'
@@ -67,7 +68,7 @@ cp shell_alias.txt ~/.shell_alias
 
 ## Step2
 
-## .zshrc中 加入以下
-test -f \~/.shell\_alias && source \~/.shell\_alias
+## .zshrc / .bash_profile
+test -f \~/.shell\_alias && source \~/.shell\_alias # .zshrc or .bash_profile
 
 ```
