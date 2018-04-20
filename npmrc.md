@@ -1,5 +1,7 @@
 # project npm config
 
+`@location: ROOT_PROJECT/.npmrc`
+
 ## registry
 
 
