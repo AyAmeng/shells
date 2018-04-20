@@ -1,6 +1,12 @@
 # project npm config
 
-`@location: ROOT_PROJECT/.npmrc`
+## Location
+
+```
+
+@ROOT_PROJECT/.npmrc
+
+```
 
 ## registry
 
