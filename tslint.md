@@ -1,4 +1,12 @@
-## TS LINT CONFIG
+## TSLINT
+
+## LOCATION
+
+```sh
+
+@ROOT_PROJECT/tslint.json
+
+```
 
 ```json
 
