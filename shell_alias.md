@@ -2,7 +2,7 @@
 
 ` @ ~/.shell_alias `
 
-## 进入相关目录 && 进入目录打开编辑器
+## PATH ABOUT...
 
 ```SH
 TBD...
@@ -70,7 +70,7 @@ cp shell_alias.txt ~/.shell_alias
 
 ## Step2
 
-## .zshrc / .bash_profile
+## ADD BELOW TO .zshrc OR .bash_profile
 test -f \~/.shell\_alias && source \~/.shell\_alias # .zshrc or .bash_profile
 
 ```
