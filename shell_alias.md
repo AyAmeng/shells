@@ -59,7 +59,7 @@ alias chrome-canary="/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Goo
 alias chromium="/Applications/Chromium.app/Contents/MacOS/Chromium"
 ```
 
-Usage
+## Usage
 
 ```sh
 
