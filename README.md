@@ -1,6 +1,2 @@
-# shells
+# Shield Special Agent
 
-```sh
-.zshrc
-.bash_profile
-```
