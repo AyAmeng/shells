@@ -1,4 +1,4 @@
-## TS LINT
+## TS LINT CONFIG
 
 ```json
 
