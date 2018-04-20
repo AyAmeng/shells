@@ -1,13 +1,14 @@
 # TSCONFIG
----
 
-## Location
+## LOCATION
 
 ```sh
 
 @ROOT_PROJECT/tsconfig.json
 
 ```
+
+## CONFIG
 
 ```json
 
