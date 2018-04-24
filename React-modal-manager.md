@@ -2,14 +2,14 @@
 
 ## Location
 
-```sh
+```javascript
 
-Typescript
+.ts  /** File */
 
 ```
 
 ## Code
-```sh
+```typescript
 
 import React from 'react'
 import * as ReactDOM from 'react-dom'
