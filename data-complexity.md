@@ -77,10 +77,10 @@ export enum EndPoint {
 }
 
 export enum SpecType {
-  A,
-  B,
-  C,
-  D
+  A = 0,
+  B = 1,
+  C = 2,
+  D = 3
 }
 
 const machine = new Machine<SpecType, EndPoint>('root')
@@ -91,7 +91,7 @@ machine
   .rule('third', (p) => p.C, EndPoint.borther, 'end')
   .rule('end', (p) => p.D, EndPoint.other, 'first')
 
-export const CPipe = (P: SpecType) => machine.transition(plan)
+export const CPipe = (P: SpecType) => machine.transition(P)
 
 
 const source = (P: SpecType) => CPipe(P) /** WANT RESULT */
