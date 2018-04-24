@@ -1,5 +1,14 @@
-## Manager
+# React Instance Manager
 
+## Location
+
+```sh
+
+Typescript
+
+```
+
+## Code
 ```sh
 
 import React from 'react'
