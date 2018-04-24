@@ -1,5 +1,3 @@
-# O^2
-
 ## Description 
 
 ```typescript
