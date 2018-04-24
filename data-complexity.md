@@ -76,7 +76,14 @@ export enum EndPoint {
   sister = 4
 }
 
-const machine = new Machine<T extends SpecType, EndPoint>('root')
+export enum SpecType {
+  A,
+  B,
+  C,
+  D
+}
+
+const machine = new Machine<SpecType, EndPoint>('root')
 
 machine
   .rule('first', (p) => p.A, EndPoint.normal, 'second')
