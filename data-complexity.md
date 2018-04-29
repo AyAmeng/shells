@@ -1,4 +1,4 @@
-## Description 
+# Description
 
 ```typescript
 
@@ -70,7 +70,7 @@ export enum EndPoint {
   normal = 0,
   spec = 1,
   other = 2,
-  borther = 3,
+  brother = 3,
   sister = 4
 }
 
@@ -85,8 +85,8 @@ const machine = new Machine<SpecType, EndPoint>('root')
 
 machine
   .rule('first', (p) => p.A, EndPoint.normal, 'second')
-  .rule('sencond', (p) => p.B, 'third', EndPoint.sister)
-  .rule('third', (p) => p.C, EndPoint.borther, 'end')
+  .rule('second', (p) => p.B, 'third', EndPoint.sister)
+  .rule('third', (p) => p.C, EndPoint.brother, 'end')
   .rule('end', (p) => p.D, EndPoint.other, 'first')
 
 export const CPipe = (P: SpecType) => machine.transition(P)
@@ -95,4 +95,3 @@ export const CPipe = (P: SpecType) => machine.transition(P)
 const source = (P: SpecType) => CPipe(P) /** WANT RESULT */
 
 ```
-
